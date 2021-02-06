@@ -9,9 +9,9 @@ namespace Business.Concrete
 {
     public class CarManagement : ICarSevice
     {
-        InMemoryCarDal _cardal;
+        ıCardal _cardal;
 
-        public CarManagement(InMemoryCarDal cardal)
+        public CarManagement(ICarDal cardal)
         {
             _cardal = cardal;
         }
